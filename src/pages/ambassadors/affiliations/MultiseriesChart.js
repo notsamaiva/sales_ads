@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { CanvasJSChart } from 'canvasjs-react-charts';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 
 class MultiseriesChart extends Component {
   constructor(props) {

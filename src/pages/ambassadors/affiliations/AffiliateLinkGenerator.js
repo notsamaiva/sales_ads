@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'; 
-import { Grid, Button, Typography, Box, MenuItem, FormControl, InputLabel, Select, Snackbar, Alert, CircularProgress } from '@mui/material';
+import { Grid, Button, Box, MenuItem, FormControl, InputLabel, Select, Snackbar, Alert, CircularProgress } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../contexts/AuthContext';
+import Typography from '@mui/material/Typography';
 
 const AffiliateLinkGenerator = () => {
   const [country, setCountry] = useState('');
