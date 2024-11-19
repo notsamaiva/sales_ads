@@ -10,7 +10,7 @@ const ChooseCountry = () => {
 
   // Fetch countries from the API when the component mounts
   useEffect(() => {
-    fetch('http://localhost/pricing_app/get_countries.php')
+    fetch('http://adsflypool.freesite.online/pricing_app/get_countries.php')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
