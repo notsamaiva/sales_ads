@@ -18,7 +18,7 @@ const Login = () => {
         setError('');
 
         try {
-            const response = await fetch('http://adsflypool.freesite.online/pricing_app/login.php', {
+            const response = await fetch('https://adsflypool.freesite.online/pricing_app/login.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username_or_email: email, password }),
